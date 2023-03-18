@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Material Design for Bootstrap</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" href="css/carousel.css">
+  <link rel="stylesheet" type="text/css" href="css/heroes.css">
+
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" />
+  <!-- MDB -->
+  <link rel="stylesheet" href="css/mdb.min.css" />
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/headers/">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+Knujsl5/4OzFqFfuriX+XG2QkS2DYF6A8d6/0J6fkdbPJJ" crossorigin="anonymous">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <section class="navigation">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
+      <!-- Container wrapper -->
+      <div class="container">
+        <!-- Toggle button -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Navbar brand -->
+          <a class="navbar-brand" href="/">Chamberlain Functional Medicine</a>
+
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Philosophy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">FAQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Articles</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+          <!-- Icons -->
+          <a class="text-reset me-3" href="https://www.linkedin.com/in/caseyq20">
+            <i class="fab fa-linkedin fa-lg"></i>
+          </a>
+          <a class="text-reset me-3" href="https://github.com/cquinn2020">
+            <i class="fab fa-github fa-lg"></i>
+          </a>
+          <a class="text-reset me-3" href="https://github.com/cquinn2020">
+            <i class="far fa-envelope fa-lg"></i>
+          </a>
+        </div>
+        <!-- End Right elements -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- End Navbar -->
+  </section>
+
+
+  <main>
+    <!-- hero section 1 -->
+    <div class="bg-dark text-secondary px-4 mb-8 mt-0">
+      <div class="py-5">
+        <h1 class="display-5 fw-bold text-white text-center mb-5">Embrace Wellness, Transform Your Life</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4">Welcome to Dr. Chamberlain's Functional Medicine Practice, where we empower you to take
+            control of your health and
+            embark on a life-changing journey. Our personalized approach to healthcare focuses on addressing the root
+            cause of
+            illness, promoting optimal wellness, and fostering a lasting partnership between you and our dedicated team.
+          </p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">About</button>
+            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Philosophy</button>
+            <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold">Services</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end hero section 1-->
+
+
+    <div class="container marketing">
+
+      <!-- features -->
+      <div class="row mb-5">
+        <div class="col-lg-4">
+          <i class="fas fa-clipboard-list fa-5x mb-3"></i>
+          <h2>In-Depth Assessments</h2>
+          <p class="lead">Comprehensive evaluations for personalized treatment plans. No stone is left unturned!</p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-fighter-jet fa-5x mb-3"></i>
+          <h2>Minimal Wait Times</h2>
+          <p class="lead">Efficient scheduling for prompt appointments. No more waiting weeks for a doctor's appointment
+            or hours at
+            the office.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <i class="fas fa-user-friends fa-5x mb-3"></i>
+          <h2>One-on-One Attention</h2>
+          <p class="lead">Dedicated time with the practitioner for strong patient-doctor relationships.</p>
+        </div>
+      </div>
+      <!-- end of features -->
+    </div>
+
+    <!-- Philosophy of Medicine -->
+    <div class="bg-dark text-secondary px-4 mb-5 mt-0">
+      <div class="py-5">
+        <h1 class="display-5 fw-bold text-white text-center mb-5">Philosophy of Medicine</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="fs-5 mb-4">At the core of Dr. Chamberlains's philosophy lies a deep commitment to fostering holistic
+            health and well-being.
+            Recognizing that each individual is unique, Dr. Chamberlain firmly believes in providing personalized
+            care that
+            addresses the root causes of health issues, rather than merely treating symptoms.<br><br>
+
+            By integrating a patient-centered approach, Dr. Chamberlain works collaboratively with patients to
+            understand their
+            medical history, lifestyle, and personal goals. This partnership empowers patients to take charge of their
+            health, as
+            they actively participate in designing their own treatment plans.<br><br>
+
+            To ensure the best possible outcomes, Dr. Chamberlain adopts an integrative approach that combines the
+            latest
+            scientific advancements with time-tested traditional methods. Drawing from a wide range of
+            disciplines—including
+            nutrition, stress management, and functional medicine—Dr. [Doctor's Name] crafts comprehensive and
+            evidence-based
+            treatment plans that address the physical, mental, and emotional aspects of well-being.<br><br>
+
+            Above all, Dr. Chamberlain is dedicated to nurturing a compassionate and supportive environment where
+            patients can
+            confidently embark on their journey towards optimal health. Through unwavering support, education, and
+            guidance, Dr.
+            Chamberlain strives to inspire patients to embrace a proactive, balanced, and fulfilling approach to health
+            and
+            wellness.and fostering a lasting partnership between you and our dedicated
+            team.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end of Philosophy of Medicine -->
+
+
+    <!-- start of services -->
+    <section class="services">
+      <div class="container">
+        <h1 class="display-2 fw-bold text-center mb-5">Our Services</h1>
+        <!-- START THE FEATURETTES -->
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading"><strong>Flexible Consultation Options</strong>
+            </h2>
+            <p class="lead">Experience the convenience of choosing between online or in-person consultations, tailored
+              to
+              suit your preferences and
+              schedule.
+            </p>
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-5 shadow-4-strong"
+              src="img/hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.jpg" alt="Image Description">
+          </div>
+        </div>
+
+        <hr class="featurette-divider  mt-5 mb-5">
+
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading"><strong>Personalized House Calls</strong>
+            </h2>
+            <p class="lead">Receive unparalleled care and attention through our exclusive home visit service, bringing
+              our
+              expertise directly to the
+              comfort of your own space.
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-5 shadow-4-strong"
+              src="img/accuray-MFSEP2g4YS0-unsplash.jpg" alt="Image Description">
+          </div>
+        </div>
+
+        <hr class="featurette-divider mt-5 mb-5">
+
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading"><strong>Rapid Care Visits</strong></h2>
+            <p class="lead">Benefit from our efficient and focused quick visits, designed to address your immediate
+              healthcare concerns without
+              delay.</p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto rounded-5 shadow-4-strong"
+              src="img/jonathan-borba-v_2FRXEba94-unsplash.jpg" alt="Image Description">
+          </div>
+        </div>
+      </div>
+    </section> <!-- end of services section -->
+
+
+    <hr class="featurette-divider  mt-5 mb-5">
+
+
+    </div><!-- /.container -->
+
+    <section id="aboutme">
+      <div class="container">
+
+        <h1 class="display-2 fw-bold  text-center py-3">About Me</h1>
+        <div class="row">
+          <!-- left side of about me -->
+          <div class="col-md-6">
+            <div id="myCarousel" class="carousel slide mb-3 shadow-3-strong" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/sean1.jpg" class=" d-block w-100 rounded shadow-3-strong" alt="Canyon at Nigh" />
+
+
+                  <div class="container">
+                    <div class="carousel-caption text-start">
+                      <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/sean2.jpg" class="d-block w-100 rounded shadow-3-strong"
+                    alt="Cliff Above a Stormy Sea" />
+
+
+                  <div class="container">
+                    <div class="carousel-caption">
+                      <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="img/sean3.jpg" class="d-block w-100 rounded shadow-3-strong"
+                    alt="Cliff Above a Stormy Sea" />
+
+
+                  <div class="container">
+                    <div class="carousel-caption text-end">
+                      <p><a class="btn btn-lg btn-primary" href="#">Browse Articles</a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <i class="fas fa-chevron-left carousel-custom-control-prev-icon"></i>
+
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <i class="fas fa-chevron-right carousel-custom-control-next-icon"></i>
+
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <div class="text-center mb-3">
+
+              <!-- Github -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                href="https://github.com/cquinn2020" role="button">
+                <i class="fab fa-github"></i>
+              </a>
+
+              <!-- Linkedin -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+                href="https://www.linkedin.com/in/caseyq20" role="button">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+
+              <!-- Google -->
+              <a class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
+                href="mailto:casey.quinn@tamu.edu" role="button">
+                <i class="fab fa-google"></i>
+              </a>
+            </div>
+          </div>
+          <!-- end of left side of about me section  -->
+
+          <!-- right side of about me section -->
+          <div class="col-md-6">
+            <!-- <h2 class="text-center py-4"><strong>Who am I?</strong></h2> -->
+            <p class="lead fs-6">Dr. Chamberlain is a dedicated functional medicine physician and the proud founder of
+              his private practice in Austin,
+              Texas. With a strong background in family medicine and emergency care, he discovered his true passion for
+              functional
+              medicine and has since been committed to helping his patients achieve optimal health through a holistic
+              and preventative
+              approach.<br><br>
+
+              Dr. Chamberlain's unique blend of experience enables him to delve deep into the root causes of health
+              issues, addressing
+              them with a personalized and integrative approach. His practice emphasizes the importance of nutrition,
+              lifestyle, and
+              mental well-being, empowering patients to take control of their health and thrive.<br><br>
+
+              Outside of his professional life, Dr. Chamberlain is an avid traveler, constantly seeking new experiences
+              and broadening
+              his understanding of health and wellness from diverse cultural perspectives. He also enjoys staying active
+              and
+              maintaining a balanced lifestyle by engaging in regular workouts and exploring the great outdoors in
+              beautiful Texas.<br><br>
+
+              Dr. Chamberlain invites you to join him on a transformative journey towards achieving vibrant health and
+              well-being,
+              guided by his extensive expertise and the core principles of functional medicine.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: About Me -->
+
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    </footer>
+  </main>
+
+
+  <!-- MDB -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Custom scripts -->
+  <script type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
