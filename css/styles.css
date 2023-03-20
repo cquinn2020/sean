@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 100px);
+}
+
 .fa-hospital-alt {
   color: blueviolet;
   margin-right: 10px;
