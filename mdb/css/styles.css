@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 100px);
+}
+
 .fa-hospital-alt {
   color: blueviolet;
   margin-right: 10px;
@@ -50,4 +55,10 @@
 body {
   margin: 0;
   padding: 0;
+}
+
+.hover-scale:hover {
+  transform: scale(1.1); /* adjust the number to your liking */
+  transition: transform 0.3s ease-in-out; /* smooth the scaling effect */
+  box-shadow: 0 2px 4px rgba(130, 127, 127, 0.2); /* add shadow effect */
 }
