@@ -1,8 +1,1 @@
-MDB5
-Version: FREE 6.1.0
-
-Documentation:
-https://mdbootstrap.com/docs/standard/
-
-Contact:
-office@mdbootstrap.com
+Not all financial products offer compound interest. Being aware of the distinction lets you select products that provide the best returns, especially over longer periods. When taking a loan, you'd prefer simple interest since it would generally cost you less over time. Conversely, when saving or investing, you'd prefer compound interest to maximize returns.
